@@ -1,7 +1,3 @@
-input.onButtonPressed(Button.A, function () {
-    basic.showIcon(IconNames.Happy)
-})
-input.onButtonPressed(Button.B, function () {
-    basic.showIcon(IconNames.Sad)
-})
 basic.showString("yippie!")
+basic.showIcon(IconNames.Happy)
+music.playSoundEffect(music.createSoundEffect(WaveShape.Square, 1600, 1, 255, 0, 300, SoundExpressionEffect.None, InterpolationCurve.Curve), SoundExpressionPlayMode.InBackground)
